@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Calculate the result
+
+RESULT=20
+EQUATION=$((10 * 2))
+
+#Check if the equation is true
+
+if [ "$RESULT" -eq "$EQUATION" ]
+
+
+then
+echo " This equation is true" 
+cal
+date
+ls
+
+else
+
+echo " this equation is false"
+
+fi
