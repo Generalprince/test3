@@ -8,7 +8,7 @@
 
 # for the for loop, we must know the number of iterations
 
-for item in u6bt u7bt u8bt u9bt;
+for item in u6bt u7bt u8bt u9bt
 
 do
 
@@ -18,9 +18,9 @@ echo "user $item is successfully created"
 
 sleep 3
 
-    userdel -r ${item}
+    #userdel -r ${item}
 
-echo "user $item is successfully deleted"
+#echo "user $item is successfully deleted"
 
     sleep 3
 
